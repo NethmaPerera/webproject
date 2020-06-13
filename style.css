@@ -1,0 +1,66 @@
+ *{
+    font-family:sans-serif;
+	list-style: none;
+	padding: 0;
+ }
+ body{
+	 background: #333;
+ }
+ .Skills{
+	 width: 500px;
+	 margin: 60px auto;
+	 color: white;
+ }
+ .skills li{
+	 margin: 20px 0;
+ }
+ .bar{
+	 background: #353b48;
+	 display: block;
+	 height: 9px;
+	 border: 1px solid rgba(0,0,0,0,3);
+     border-redius: 3px;
+     overflow: hidden;
+    box-shadow: 0 0 10px #2181e7b3;
+ }
+ .bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7
+ }
+.Interpersonal{
+    width: 90%;
+	animation: Interpersonal 2s;
+}
+.HTML{
+	width:65%;
+	animaation: HTML 2s;
+}	
+.EnglishLanguage{
+	width:95%;
+	animation: EnglishLanguage 2s;
+}
+@keyframes Interpersonal{
+	0%{
+		width: 0%;
+	}
+100%{
+    width:90%;
+}
+}
+@keyframes HTML{
+	0%{
+		width: 0%;
+	}
+100%{
+    width:65%;
+}
+}
+@keyframes EnglishLanguage{
+	0%{
+		width: 0%;
+	}
+100%{
+    width:95%;
+}
+} 
